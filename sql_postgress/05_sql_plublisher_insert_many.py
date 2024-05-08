@@ -22,11 +22,11 @@ try:
 	VALUES (%s,%s,%s,%s,%s)"""
 
     record_to_insert = [
-        (31, "Packt", 1950, "chennai", "books"),
-        (32, "Springer", 1950, "chennai", "books"),
-        (33, "Springer", 1950, "chennai", "articles"),
-        (34, "Oxford", 1950, "chennai", "all"),
-        (35, "MIT", 1950, "chennai", "books"),
+        (341, "Packt", 1950, "chennai", "books"),
+        (342, "Springer", 1950, "chennai", "books"),
+        (343, "Springer", 1950, "chennai", "articles"),
+        (344, "Oxford", 1950, "chennai", "all"),
+        (345, "MIT", 1950, "chennai", "books"),
     ]
     for i in record_to_insert:
         cursor.execute(postgres_insert_query, i)
