@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   postgres:
-    image:  integratedaisolutions/postgres-pgvector:latest #myuser/pgvector #postgres:
+    image: integratedaisolutions/postgres-pgvector:latest #myuser/pgvector #postgres:
     environment:
       - POSTGRES_DB=postgres # optional
       - POSTGRES_USER=postgres
@@ -21,7 +21,7 @@ services:
 
     ports:
       - "5050:5050"
-  
+
   adminer:
     image: adminer
     restart: always
@@ -32,4 +32,4 @@ services:
 
 volumes:
   data:
-    name: postgres_data
+    name: data

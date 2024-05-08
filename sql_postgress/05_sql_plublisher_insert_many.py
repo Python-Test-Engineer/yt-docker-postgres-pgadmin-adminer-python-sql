@@ -16,37 +16,17 @@ cursor = conn.cursor()
 
 TABLE_NAME = "publisher"
 
-cursor.execute(f"DROP TABLE IF EXISTS {TABLE_NAME}")
-
-# Creating table as per requirement
-sql = f"""CREATE TABLE {TABLE_NAME} (
-				publisher_id SERIAL PRIMARY KEY,
-				publisher_name VARCHAR(255) NOT NULL,
-				publisher_estd INT,
-				publsiher_location VARCHAR(255),
-				publsiher_type VARCHAR(255)
-)"""
-
-try:
-    cursor.execute(sql)
-    conn.commit()
-    print(f"{TABLE_NAME} table created successfully........\n")
-
-except Exception as e:
-    print(f"Error {e}")
-
-
 try:
     postgres_insert_query = f""" INSERT INTO {TABLE_NAME} (publisher_id,
 	publisher_name, publisher_estd, publsiher_location, publsiher_type)
 	VALUES (%s,%s,%s,%s,%s)"""
 
     record_to_insert = [
-        (1, "Packt", 1950, "chennai", "books"),
-        (2, "Springer", 1950, "chennai", "books"),
-        (3, "Springer", 1950, "chennai", "articles"),
-        (4, "Oxford", 1950, "chennai", "all"),
-        (5, "MIT", 1950, "chennai", "books"),
+        (31, "Packt", 1950, "chennai", "books"),
+        (32, "Springer", 1950, "chennai", "books"),
+        (33, "Springer", 1950, "chennai", "articles"),
+        (34, "Oxford", 1950, "chennai", "all"),
+        (35, "MIT", 1950, "chennai", "books"),
     ]
     for i in record_to_insert:
         cursor.execute(postgres_insert_query, i)
