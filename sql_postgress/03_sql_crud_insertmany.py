@@ -29,5 +29,5 @@ def bulkInsert(records):
             print("PostgreSQL connection is closed")
 
 
-records_to_insert = [("TERRY", "NC"), ("SUSAN", "AZ")]
+records_to_insert = [("JACK", "NC"), ("CLAIRE", "AZ")]
 bulkInsert(records_to_insert)
