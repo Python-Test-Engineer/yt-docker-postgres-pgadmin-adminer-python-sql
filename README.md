@@ -28,7 +28,7 @@ conn = psycopg2.connect(
 
 - http://localhost:5050/
 - admin@email.com
-- dmin
+- admin
 
 register-server
 
