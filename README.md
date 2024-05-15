@@ -7,14 +7,14 @@ Combines PgAdmin and Adminer for DB viewing.
 https://youtu.be/EDFADTay_HM
 
 NOTE
-
+```
 conn = psycopg2.connect(
     database="postgres",
     user="postgres",
     password="postgres",
     host="host.docker.internal", !!! localhost etc don't seem to work...
 )
-
+```
 
 ### PgAdmin
 
