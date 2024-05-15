@@ -24,9 +24,11 @@ conn = psycopg2.connect(
 
 
 <!-- ![PAGE](./images/register-server-1.png ) -->
-http://localhost:5050/
-admin@email.com
-admin
+
+
+- http://localhost:5050/
+- admin@email.com
+- dmin
 
 register-server
 
