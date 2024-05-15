@@ -2,7 +2,7 @@ Set up of Docker with Postgress, PgAdmin and Adminer with Python CRUD.
 
 Combines PgAdmin and Adminer for DB viewing.
 
-YT: to follow
+[YouTube](https://youtu.be/EDFADTay_HM)
 
 NOTE
 
@@ -43,6 +43,6 @@ run docker-compose up in terminal ->
 
 ### Adminer
 
-admininer login on port 8080
+admininer login on port http://localhost:8080
 
 <img src="./images/adminer-login.png"  width="500" >

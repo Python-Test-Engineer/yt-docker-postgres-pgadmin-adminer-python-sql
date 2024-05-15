@@ -10,7 +10,7 @@ try:
     cursor = connection.cursor()
 
     postgres_insert_query = """ INSERT into employee(name, state) VALUES (%s, %s)"""
-    record_to_insert = ("ZZ", "ZZ")
+    record_to_insert = ("YT", "YTZ")
     cursor.execute(postgres_insert_query, record_to_insert)
 
     connection.commit()
