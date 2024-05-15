@@ -4,6 +4,8 @@ Combines PgAdmin and Adminer for DB viewing.
 
 [YouTube](https://youtu.be/EDFADTay_HM)
 
+https://youtu.be/EDFADTay_HM
+
 NOTE
 
 conn = psycopg2.connect(
