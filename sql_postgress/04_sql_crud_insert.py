@@ -25,7 +25,7 @@ try:
         user="postgres",
         password="postgres",
         host="host.docker.internal",
-        # host="postgres",
+        # host="postgres", # does not work
     )
     cursor = connection.cursor()
     for i in range(10):
