@@ -2,21 +2,10 @@ import psycopg2
 import string
 import random
 
-# initializing size of string
-N = 7
-
 
 def get_random_string(N):
-    # using random.choices()
-    # generating random strings
     result = "".join(random.choices(string.ascii_uppercase + string.digits, k=N))
-    # res2 = "".join(random.choices(string.ascii_uppercase + string.digits, k=N))
     return result
-
-
-# print result
-# print("The generated random res1 : " + str(res1))
-# print("The generated random res2 : " + str(res2))
 
 
 try:
@@ -28,7 +17,7 @@ try:
         # host="postgres", # does not work
     )
     cursor = connection.cursor()
-    for i in range(10):
+    for i in range(20):
         n1 = random.randint(5, 15)
         n2 = random.randint(3, 10)
         postgres_insert_query = """ INSERT into employee(name, state) VALUES (%s, %s)"""
