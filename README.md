@@ -2,6 +2,8 @@ Set up of Docker with Postgress, PgAdmin and Adminer with Python CRUD.
 
 Combines PgAdmin and Adminer for DB viewing.
 
+Tested: 16MAY2024
+
 [YouTube](https://youtu.be/mipRKPHwlBkI)
 
 https://youtu.be/mipRKPHwlBk
