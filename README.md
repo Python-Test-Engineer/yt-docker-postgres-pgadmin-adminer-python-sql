@@ -51,4 +51,6 @@ run docker-compose up in terminal ->
 
 admininer login on port http://localhost:8080
 
+password and most variables are `postgres`. You can change them as you wish.
+
 <img src="./images/adminer-login.png"  width="500" >
