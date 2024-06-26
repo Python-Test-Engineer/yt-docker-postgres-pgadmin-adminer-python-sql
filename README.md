@@ -4,6 +4,8 @@ Combines PgAdmin and Adminer for DB viewing.
 
 Tested: 16MAY2024
 
+I have added a `docker-compose-named-volume.yml` if you prefer this to having the data saved in the project with a boun mount volume.
+
 [YouTube](https://youtu.be/mipRKPHwlBkI)
 
 https://youtu.be/mipRKPHwlBk
