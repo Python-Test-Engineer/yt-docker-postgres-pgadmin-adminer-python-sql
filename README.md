@@ -9,7 +9,7 @@ Create venv and pip install requirments.
 
 ### Tested: 28JUN2024
 
-If getting locked out from PgAdmin as I suddenly have, use Adminer or try other tags of dpage/pgadmin4.
+If you ever unable to login to PgAdmin when you have been able to do so before, delete all images/vols/containers for this set up and reclone repo. This happened to me and doing the afore mentioned solved the issue.
 
 Python SQL worked fine.
 
