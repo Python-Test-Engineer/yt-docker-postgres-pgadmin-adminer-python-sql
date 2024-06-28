@@ -2,9 +2,20 @@ Set up of Docker with Postgress, PgAdmin and Adminer with Python CRUD.
 
 Combines PgAdmin and Adminer for DB viewing.
 
-Tested: 16MAY2024
+Ensure Docker is running.
 
-I have added a `docker-compose-named-volume.yml` if you prefer this to having the data saved in the project with a boun mount volume.
+Create venv and pip install requirments.
+
+
+### Tested: 28JUN2024
+
+If getting locked out from PgAdmin as I suddenly have, use Adminer or try other tags of dpage/pgadmin4.
+
+Python SQL worked fine.
+
+### Other Docker compose files
+
+I have added a `docker-compose-named-volume.yml` if you prefer this to having the data saved in the project with a bound mount volume.
 
 [YouTube](https://youtu.be/mipRKPHwlBkI)
 
